@@ -1,0 +1,32 @@
+/* Style for the CAPTCHA Container */
+#captcha-container {
+    background-color: white; /* Set background to white */
+    position: absolute; /* Position absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    display: flex; /* Use flexbox for centering items */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding around items */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Style for the Main Content */
+
+html, body {
+    margin: 0; /* Remove all margins */
+    padding: 0; /* Remove all padding */
+    overflow: hidden; /* Prevent scroll bars from showing */
+    height: 100%; /* Ensure body and html take full height */
+    width: 100%; /* Ensure body and html take full width */
+}
+
+#main-content {
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+}
+
+/* Additional styling for CAPTCHA elements as needed */
+/* ... */
